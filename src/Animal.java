@@ -1,7 +1,12 @@
 /**
  * Created by emma on 7/10/17.
  */
-public class Animal implements Drawable, Rotatable, Resizable, Sounds {
+
+/**
+ * Animal has a name and is a subclass of Interactive.
+ */
+
+public class Animal extends Interactive {
 
     private String name;
 
